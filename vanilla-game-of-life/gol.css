@@ -5,8 +5,8 @@
 
 .cell {
     display:table-cell;
-    width:5px;
-    height:5px;
+    width:10px;
+    height:10px;
     border:none;
     border-radius: 50%;
     background: white;

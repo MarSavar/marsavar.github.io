@@ -2,12 +2,21 @@
 <html>
     <head>
         <title>Yet another game of life</title>
-        <link rel="stylesheet" href="./gol.css">
+        <link rel="stylesheet" href="./gol2.css">
     </head>
     <body>
         <h1>Yet another game of life</h1>
+        <p>Cells can be toggled when the game is paused.</p>
+        <p>Generation: <span id="generation">1</span></p>
         <div class="container">
         </div>
-        <script type="text/javascript" src="gol.js"></script>
+        <div class="slidecontainer">
+            <button id="clear">Clear</button>
+            <button id="pause">Start</button><br><br>
+            5 <input type="range" min="5" max="80" value="55" id="cols">  80 <br>
+            5 <input type="range" min="5" max="80" value="35" id="rows"> 80</span> <br><button id="newgrid">Generate new 40 x 40 grid</button>
+            <input type="checkbox" id="randomColours" checked><label for="randomColours"> Random colours</label>
+        </div>
+       <script type="text/javascript" src="gol3.js"></script>
     </body>
 </html>

@@ -1,7 +1,7 @@
 /* 
 GAME OF LIFE
 Made by Mario Savarese
-bored in Valencia, Spain
+on a sleepless night in Valencia
 */
 
 // Query selectors

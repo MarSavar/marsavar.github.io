@@ -1,3 +1,6 @@
 # 🪐
 
-A bucket of projects not worthy to be showcased.
+A repository for casual side projects.
+
+Currently includes: 
+- [Game of Life](https://marsavar.github.io/vanilla-game-of-life)
